@@ -20,15 +20,15 @@ const itemSchema = {
 const Item = mongoose.model("item", itemSchema);
 
 const coding = new Item({
-  name: "coding",
+  name: "create list while typing in url with /<randomname>",
 });
 
 const programming = new Item({
-  name: "programming",
+  name: "click plus button to add item",
 });
 
 const hacking = new Item({
-  name: "hacking",
+  name: "<--delete items",
 });
 
 const itemnames = [coding, programming, hacking];
